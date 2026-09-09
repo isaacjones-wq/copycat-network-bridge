@@ -1,0 +1,24 @@
+{
+  "name": "copycat-network-bridge",
+  "version": "1.0.0",
+  "description": "Peer-to-peer modem API bridge for Copy Cat ComputerCraft emulator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src/**/*.ts"
+  },
+  "keywords": [
+    "computercraft",
+    "copy-cat",
+    "modem",
+    "network",
+    "p2p"
+  ],
+  "author": "isaacjones-wq",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
